@@ -1,0 +1,38 @@
+*{
+
+    margin: 0;
+}
+
+
+div {
+    background-color: yellow;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#d1 {
+    background-color: rgba(255, 255, 0, 0.3);
+    border: 2px solid;
+    height: 70px;
+    width: 1319px;
+    background-image: url("img2.png ");
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-size: 25px;
+    text-align: center;
+    background-size: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    
+}
+#div {
+    border: 2px solid;
+    height: 40px;
+    width: 100px;
+    
+}
+#d2 {
+    width: 1355px;
+    height: 1800px;
+}
+
