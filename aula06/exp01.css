@@ -1,0 +1,34 @@
+body {
+    background-color: #0d192b;
+    margin: 10px;
+}
+.box {
+    background-color: #0c5149;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "titulo titulo titulo"
+                         "menul conteudo menur"
+                         "rodape rodape rodape";
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;                     
+}
+.titulo {
+    background-color: #0a8967;
+    grid-area: titulo;
+}
+.menul {
+    background-color: #09c184;
+    grid-area: menul;
+}
+.conteudo {
+    background-color: #90ff17;
+    grid-area: conteudo;
+}
+.menur {
+    background-color: #07f9a2;
+    grid-area: menur;
+}
+.rodape {
+    background-color: rgb(0, 247, 255);
+    grid-area: rodape;
+}

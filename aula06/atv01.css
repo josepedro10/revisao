@@ -1,0 +1,19 @@
+.corpo {
+    grid-template-areas: "topo topo "
+                         "centro centro ";
+    grid-template-columns: 100px 700px ;
+    grid-template-rows: 100px 700px ;
+    display: grid;
+}
+.topo{
+    background-color: aqua;
+    grid-area: topo;
+}
+.centro {
+    background-color: blueviolet;
+    grid-area: centro;
+}
+.le {
+    background-color: blue;
+    grid-area: le;
+}

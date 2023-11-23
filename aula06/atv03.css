@@ -1,0 +1,35 @@
+.corpo {
+    grid-template-areas: "topo topo topo"
+                         "le centro ld";
+    grid-template-columns: 100px 1fr 100px ;
+    grid-template-rows: 150px 600px 500px;
+    display: grid;
+}
+.topo {
+    background-color: crimson;
+    grid-area: topo;
+    
+}
+.topo .tilt{
+    border: 2px solid black;
+    margin-top: 75px;
+    margin-left: 650px;
+    margin-right: 535px;
+}
+.topo img {
+    padding-left: 25px;
+    width: 100px;
+    height: 100px;
+}
+.le {
+    background-color: aquamarine;
+    grid-area: le;
+}
+.centro {
+    background-color: darkgreen;
+    grid-area: centro;
+}
+.ld {
+    background-color: darkblue;
+    grid-area: ld;
+}
