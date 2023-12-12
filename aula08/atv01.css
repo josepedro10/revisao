@@ -1,0 +1,93 @@
+.box {
+    grid-template-areas: "titulo titulo titulo"
+                        "le centro ri"
+                        "rodape rodape rodape";
+    grid-template-columns: 100px 1fr 200px;
+    grid-template-rows: 70px 500px 90px;
+    display: grid;
+}
+.titulo {
+    background-color: lightgreen;
+    grid-area: titulo;
+}
+.menul {
+    background-color: burlywood;
+    grid-area: le;
+    grid-template-areas: "c1"
+                         "c2"
+                         "c3";
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.menul .c1 {
+    background-color: chocolate;
+    grid-area: c1;
+}
+.menul .c2 {
+    background-color: aqua;
+    grid-area: c2;
+}
+.menul .c3 {
+    background-color: darkgoldenrod;
+    grid-area: c3;
+}
+.centro {
+    background-color: chartreuse;
+    grid-area: centro;
+}
+.menur {
+    background-color: blueviolet;
+    grid-area: ri;
+    display: grid;
+    grid-template-areas: "d1 d2"
+                         "d3 d4"
+                         "d5 d6"
+                         "d7 d8";
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.meunr .d1 {
+    background-color: white;
+    grid-area: d1;
+}
+.menur .d2{
+    background-color: yellow;
+    grid-area: d2;
+}
+.menur .d3 {
+    background-color: yellowgreen;
+    grid-area: d3;
+}
+.menur .d4 {
+    background-color: violet;
+    grid-area: d4;
+}
+.menur .d5 {
+    background-color: turquoise;
+    grid-area: d5;
+}
+.menur .d6 {
+    background-color: tomato;
+    grid-area: d6;
+}
+.menur .d7 {
+    background-color: thistle;
+    grid-area: d7;
+}
+.meunr .d8 {
+    background-color: teal;
+    grid-area: d8;
+}
+.rodape {
+    background-color: crimson;
+    grid-area: rodape;
+}
+.menur p {
+    background-color: red;
+}
+.menur .d6 p {
+    background-color: blue;
+}
+.menur .d1 p {
+    background-color: springgreen;
+}
