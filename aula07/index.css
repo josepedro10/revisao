@@ -1,0 +1,54 @@
+.box {
+    grid-template-areas: "header header header"
+                         "menu main right"
+                         "menu footer footer";
+    grid-template-columns: 225px auto 450px;
+    display: grid;
+    background-color: blue;
+}
+
+.header {
+    background-color: cadetblue;
+    grid-area: header;
+    height: 100px;
+    width: 1330px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+.menu {
+    background-color: cadetblue;
+    grid-area: menu;
+    height: 225px;
+    margin-left: 10px;
+    border: solid 1px black;
+    margin: 10px;
+}
+.right {
+    background-color: cadetblue;
+    grid-area: right;
+    height: 100px;
+    margin-right: 10px;
+    border: solid 1px black;
+    margin: 10px;
+}
+.footer {
+    background-color: cadetblue;
+    grid-area: footer;
+    height: 100px;
+    margin-right: 10px;
+    border: solid 1px black;
+    margin: 10px;
+}
+.main {
+    background-color: cadetblue;
+    grid-area: main;
+    height: 100px;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
